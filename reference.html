@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Tap Against Me feature status, implementation evidence, delivery phases, and next gates">
+  <title>Feature Tracker - Tap Against Me</title><link rel="icon" href="assets/icon.svg"><link rel="stylesheet" href="reference.css"><link rel="stylesheet" href="reference-extra.css">
+</head>
+<body>
+  <header><a class="brand" href="index.html#overview">TAP AGAINST ME</a><nav><a href="index.html#overview">GAME</a><a href="index.html#wiki">WIKI</a><a href="index.html#roadmap">ROADMAP</a><a class="active" href="reference.html">TRACKER</a><a href="bible.html">MASTER BIBLE</a><a href="sources.html">SOURCES</a></nav></header>
+  <main>
+    <section class="ref-hero"><p class="eyebrow">MASTER BIBLE V2.0 / LIVING IMPLEMENTATION EVIDENCE</p><h1>THE FEATURE<br><em>TRACKER</em></h1><p>Expand any record to understand the exact player intent, detailed rules, current evidence, delivery phases, definition of done, and its precise home in the comprehensive master Bible.</p><div class="hero-actions"><a class="primary" href="bible.html">SEARCH THE MASTER BIBLE ↗</a><a href="reference/Tap_Against_Me_Comprehensive_Game_Bible_v2.0.pdf" target="_blank">OPEN MASTER PDF ↗</a><button id="export">EXPORT STATUS JSON ↓</button></div></section>
+    <section class="summary"><div><strong id="total-count">0</strong><span>tracked systems</span></div><div><strong id="shipped-count">0</strong><span>shipped</span></div><div><strong id="progress-count">0</strong><span>in progress</span></div><div><strong id="pending-count">0</strong><span>pending or concept</span></div></section>
+    <section class="controls"><label><span>⌕</span><input id="search" type="search" placeholder="Search systems, requirements, phases, chapters..."></label><div id="filters"><button class="active" data-filter="all">ALL</button><button data-filter="shipped">SHIPPED</button><button data-filter="partial">PARTIAL</button><button data-filter="pending">PENDING</button><button data-filter="concept">CONCEPT</button></div></section>
+    <section class="reference-layout"><aside><p>FEATURE AREAS</p><div id="section-nav"></div><div class="legend"><span><i class="shipped"></i>Implemented</span><span><i class="partial"></i>Foundation exists</span><span><i class="pending"></i>Specified, not built</span><span><i class="concept"></i>Needs a decision</span></div><a class="archive-link" href="bible.html">COMPLETE MASTER BIBLE →</a></aside><div><div class="list-heading"><div><p class="eyebrow">EXPAND ANY FEATURE FOR THE COMPLETE PLAN</p><h2>FEATURE PLAYBOOKS</h2><p class="playbook-intro">Each playbook answers what is trying to happen, where the build is now, which phases remain, what “done” means, and which master-Bible chapter owns the nuance.</p></div><p id="visible-count"></p></div><div id="records"></div><p id="empty" hidden>No records match those filters.</p></div></section>
+  </main>
+  <footer><span>Every Tap Against Me Takes You Further.</span><a href="bible.html">Comprehensive Master Bible v2.0</a></footer><script src="reference/master-bible.js"></script><script src="reference/corpus.js"></script><script src="reference.js"></script>
+</body>
+</html>

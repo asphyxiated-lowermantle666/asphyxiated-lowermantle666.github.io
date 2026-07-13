@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#251546">
+  <meta name="description" content="The complete, searchable Tap Against Me game Bible: mechanics, characters, effects, implementation status, roadmap, and release gates.">
+  <title>Master Bible - Tap Against Me</title>
+  <link rel="icon" href="assets/icon.svg">
+  <link rel="stylesheet" href="bible.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html#overview"><span class="brand-mark"><span></span></span>TAP AGAINST ME</a>
+    <nav aria-label="Primary navigation"><a href="index.html#overview">GAME</a><a href="index.html#wiki">WIKI</a><a href="index.html#roadmap">ROADMAP</a><a href="reference.html">TRACKER</a><a class="active" href="bible.html">MASTER BIBLE</a></nav>
+  </header>
+
+  <main>
+    <section class="bible-hero">
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span> CANONICAL PRODUCT REFERENCE / VERSION 2.0</p>
+        <h1>EVERY SYSTEM.<br><em>ONE BIBLE.</em></h1>
+        <p class="hero-dek">The complete working definition of Tap Against Me: current evidence, intended mechanics, characters, effects, Infinity Taps, competitive systems, delivery phases, open decisions, and release gates.</p>
+        <div class="hero-actions">
+          <a class="primary" href="reference/Tap_Against_Me_Comprehensive_Game_Bible_v2.0.pdf" target="_blank">OPEN PDF <span>↗</span></a>
+          <a href="reference/Tap_Against_Me_Comprehensive_Game_Bible_v2.0.docx">EDITABLE DOCX <span>↓</span></a>
+          <a href="reference.html">FEATURE TRACKER <span>→</span></a>
+        </div>
+      </div>
+      <div class="hero-index" aria-label="Bible summary">
+        <div><strong id="chapter-stat">50</strong><span>numbered chapters</span></div>
+        <div><strong id="word-stat">28,880</strong><span>searchable words</span></div>
+        <div><strong id="table-stat">93</strong><span>reference tables</span></div>
+        <div class="version-card"><span>CURRENT AUTHORITY</span><strong>V2.0</strong><p>Eight unique source bibles reconciled with conflicts, evidence, and decision state preserved.</p></div>
+      </div>
+    </section>
+
+    <section class="reading-key" aria-label="How to read the Bible">
+      <div><p class="section-label">TWO AXES, KEPT SEPARATE</p><h2>DESIGN INTENT IS NOT IMPLEMENTATION EVIDENCE.</h2></div>
+      <div class="legend-grid">
+        <article><span class="legend-dot locked"></span><strong>Decision state</strong><p>Locked, confirmed, working, candidate, tuning, open, or legacy describes the authority of an idea.</p></article>
+        <article><span class="legend-dot implemented"></span><strong>Evidence state</strong><p>Implemented, partial, data-defined, planned, not started, or audit describes what the current build can prove.</p></article>
+      </div>
+    </section>
+
+    <section class="explorer-shell">
+      <div class="explorer-controls">
+        <label class="search-box"><span>⌕</span><input id="bible-search" type="search" autocomplete="off" placeholder="Search a mechanic, number, character, effect, phase, or decision..."></label>
+        <button id="clear-search" type="button">CLEAR</button>
+      </div>
+      <div class="part-filters" id="part-filters" aria-label="Filter by Bible part"></div>
+
+      <div class="explorer-layout">
+        <aside class="chapter-index">
+          <div class="index-head"><p>CHAPTER INDEX</p><span id="index-count"></span></div>
+          <nav id="chapter-nav" aria-label="Master Bible chapters"></nav>
+        </aside>
+        <section class="chapter-results">
+          <div class="results-head">
+            <div><p class="section-label">COMPLETE WORKING REFERENCE</p><h2 id="results-title">ALL CHAPTERS</h2></div>
+            <span id="result-count"></span>
+          </div>
+          <div id="chapter-list"></div>
+          <div class="empty-state" id="empty-state" hidden><span>?</span><h2>No chapter matches that search.</h2><p>Try a shorter term such as "gravity", "Infinity", "Velvet", "Glicko", or "particles".</p></div>
+        </section>
+      </div>
+    </section>
+  </main>
+
+  <footer><span>Tap Against Me Comprehensive Game Bible v2.0</span><nav><a href="reference.html">Feature tracker</a><a href="sources.html">Source lineage</a><a href="index.html#roadmap">Roadmap</a></nav></footer>
+  <script src="reference/master-bible.js"></script>
+  <script src="bible.js"></script>
+</body>
+</html>
